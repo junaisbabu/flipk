@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-panel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px 0px;
+}
+
+.top-panel > button {
+  padding: 4px 16px;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-panel > li {
+  background-color: gray;
+  color: white;
+  width: fit-content;
+  padding: 4px 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
